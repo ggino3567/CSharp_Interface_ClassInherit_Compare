@@ -1,0 +1,14 @@
+C:\Users\GINO\Desktop\AnyCS\bin\Debug\net9.0\AnyCS.exe
+C:\Users\GINO\Desktop\AnyCS\bin\Debug\net9.0\AnyCS.deps.json
+C:\Users\GINO\Desktop\AnyCS\bin\Debug\net9.0\AnyCS.runtimeconfig.json
+C:\Users\GINO\Desktop\AnyCS\bin\Debug\net9.0\AnyCS.dll
+C:\Users\GINO\Desktop\AnyCS\bin\Debug\net9.0\AnyCS.pdb
+C:\Users\GINO\Desktop\AnyCS\obj\Debug\net9.0\AnyCS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\GINO\Desktop\AnyCS\obj\Debug\net9.0\AnyCS.AssemblyInfoInputs.cache
+C:\Users\GINO\Desktop\AnyCS\obj\Debug\net9.0\AnyCS.AssemblyInfo.cs
+C:\Users\GINO\Desktop\AnyCS\obj\Debug\net9.0\AnyCS.csproj.CoreCompileInputs.cache
+C:\Users\GINO\Desktop\AnyCS\obj\Debug\net9.0\AnyCS.dll
+C:\Users\GINO\Desktop\AnyCS\obj\Debug\net9.0\refint\AnyCS.dll
+C:\Users\GINO\Desktop\AnyCS\obj\Debug\net9.0\AnyCS.pdb
+C:\Users\GINO\Desktop\AnyCS\obj\Debug\net9.0\AnyCS.genruntimeconfig.cache
+C:\Users\GINO\Desktop\AnyCS\obj\Debug\net9.0\ref\AnyCS.dll
