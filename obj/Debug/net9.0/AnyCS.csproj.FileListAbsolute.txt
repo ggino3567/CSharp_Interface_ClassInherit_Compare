@@ -12,3 +12,4 @@ C:\Users\GINO\Desktop\AnyCS\obj\Debug\net9.0\refint\AnyCS.dll
 C:\Users\GINO\Desktop\AnyCS\obj\Debug\net9.0\AnyCS.pdb
 C:\Users\GINO\Desktop\AnyCS\obj\Debug\net9.0\AnyCS.genruntimeconfig.cache
 C:\Users\GINO\Desktop\AnyCS\obj\Debug\net9.0\ref\AnyCS.dll
+C:\Users\GINO\Desktop\AnyCS\obj\Debug\net9.0\AnyCS.sourcelink.json

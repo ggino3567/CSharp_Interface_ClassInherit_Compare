@@ -11,12 +11,19 @@ internal class Program
 {
     static void Main(string[] args)
     {
+        /*
         RCSample cSample = new RCSample(11, "Eleeeeee");
         cSample.Get();
 
         CLAA cLAA = new CLAA();
         cLAA.A_Method();
         cLAA.B_Method(); //this method is empty, do nothing
+        */
+
+        Sales sales = new Sales() { Name = "Joan" };
+        sales.Introduction();
+        Teacher teacher = new Teacher() { Name = "Timothy" };
+        teacher.Introduction();
     }
 }
 
@@ -50,18 +57,73 @@ public class RCSample : CSample
     public RCSample(int num, string name) : base(num, name) { }
 }
 
-interface MethodSample
+interface IMethodSample
 {
     //A_Method : Print()
     public void A_Method();
     public void B_Method();
 }
 
-public class CLAA : MethodSample
+public class CLAA : IMethodSample
 {
     public void A_Method()
     {
         System.Console.WriteLine("This is A_Method()");
     }
     public void B_Method() { }
+}
+
+interface IMeasure
+{
+    void Length(double len, double r);
+    void Area(double len);
+    void Volume(double len);
+}
+
+class Square : IMeasure
+{
+    public void Length(double len, double r) //this place dont need argument(r), just try to avoid lost any property from interface
+    {
+        double squareLength = 4 * len;
+        Console.WriteLine($"邊長為 {len} 的正方形周長 = {squareLength}");
+    }
+
+    public void Area(double len)
+    {
+        double area = Math.Pow(len, 2);
+        Console.WriteLine($"邊長為 {len} 的正方形面積 = {area}");
+    }
+
+    public void Volume(double len)
+    {
+        double volume = Math.Pow(len, 3);
+        Console.WriteLine($"邊長為 {len} 的立方體體積 = {volume}");
+    }
+}
+
+//多型(Polymorphism)
+interface IHuman
+{
+    string Name { get; set; }
+    void Introduction();
+}
+
+public class Sales : IHuman
+{
+    public string Name { get; set; }
+
+    public void Introduction()
+    {
+        System.Console.WriteLine($"Hello! My name is {Name},\nCareer is {this.GetType().FullName}");
+    }
+}
+
+public class Teacher : IHuman
+{
+    public string Name { get; set; }
+
+    public void Introduction()
+    {
+        Console.WriteLine($"Hi~ My name is {Name},\nCareer is {this.GetType().FullName}");
+    }
 }
